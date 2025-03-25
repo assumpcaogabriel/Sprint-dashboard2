@@ -1,0 +1,1 @@
+export const Select = ({ children }) => <select>{children}</select>; export const SelectItem = ({ value, children }) => <option value={value}>{children}</option>;
